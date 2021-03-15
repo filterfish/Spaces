@@ -14,7 +14,7 @@ recommended you set `ENGINES_WORKSPACE`.
 
 Spaces exist in a universe which you can create with the `Universe` class:
 
-```
+```ruby
 require_relative 'src/universe'
 universe = Universe.new
 ```
@@ -105,7 +105,12 @@ Run `bundle` before starting API or running tests.
 
 ## Run API
 
-To run the API: `ruby api.rb`
+There is a script called `run-spaces-api` in the `bin` directory which will
+start the app or you can invoke it directly:
+
+```
+ruby api.rb
+```
 
 ## Test API
 
