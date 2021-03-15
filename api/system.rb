@@ -13,6 +13,10 @@ post '/system' do
   system_settings.to_json
 end
 
+#################
+# TO BE REMOVED #
+#################
+
 # Show blueprinting settings
 get '/system/blueprinting' do
   blueprinting_settings.to_json

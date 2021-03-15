@@ -10,6 +10,10 @@ def system_settings
   }
 end
 
+#################
+# TO BE REMOVED #
+#################
+
 # Data needed for certain options on blueprint forms.
 def blueprinting_settings
   {
